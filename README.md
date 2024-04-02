@@ -1,10 +1,13 @@
 # Faster-pgyolo
 # Description
 we propose a novel hardware-friendly approach utilizing YOLOv8s, specifically designed for detecting floating debris with unmanned cleaning vessels.
+# **Experimental** **setup**
+This study's experimental configuration was established on a system operating under Windows 10, outfitted with an i5-13600KF CPU and an NVIDIA GeForce RTX 3060 GPU. Experiments were accelerated using CUDA 11.8, based on PyTorch 2.1.0, with identical hyper-parameters for  training and validation. 
 # Download
-The dataset and models have been released.
+The dataset and models have been released. [Data&Model]( https://pan.baidu.com/s/1qhYJRb5mjvoP3HmhhTjw9w?pwd=vs12 )
+- The experiments utilize the unmanned vessel perspective inland water floating debris data  set released by Orcauboat.
+- This model includes the redesigned detection layer of the YOLOv8s model, enhancements to the C2f module, the incorporation of a novel attention mechanism, and improvements to the neck feature fusion network. 
 
-[Data&Model]( https://pan.baidu.com/s/1qhYJRb5mjvoP3HmhhTjw9w?pwd=vs12 )
 ### Dataset Directory Structure
 ~~~
 dataset/
