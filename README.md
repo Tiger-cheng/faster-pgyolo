@@ -1,6 +1,6 @@
 # Faster-pgyolo
 # Description
-we propose a novel hardware-friendly approach utilizing YOLOv8s, specifically designed for detecting floating debris with unmanned cleaning vessels.
+We propose a novel hardware-friendly approach utilizing YOLOv8s, specifically designed for detecting floating debris with unmanned cleaning vessels.
 # **Experimental** **setup**
 This study's experimental configuration was established on a system operating under Windows 10, outfitted with an i5-13600KF CPU and an NVIDIA GeForce RTX 3060 GPU. Experiments were accelerated using CUDA 11.8, based on PyTorch 2.1.0, with identical hyper-parameters for  training and validation. 
 # Download
