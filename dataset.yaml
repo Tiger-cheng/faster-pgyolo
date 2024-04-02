@@ -1,0 +1,9 @@
+# Description of the dataset
+path: E:\JS\project\python\1\yolov8-main\dataset\bottle9  # dataset root dir 
+train: train/images  
+val: valid/images
+test: ../test/images
+
+#类别
+names:
+  0: bottle
